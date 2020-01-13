@@ -10,6 +10,6 @@ cordova的一系列莫名其妙的问题
 </ul>
 <p><strong>2：</strong>无法新建项目cordova create MyApp,提示啥commond faild命令行错误,<img src="./QQ图片20200113164524.png">把cordova的版本改为6.0.0就行了，cnpm i -g cordova@6.0.0,原因同样是1.2</p>
 <p><strong>3：还有cordova-plugin-crosswalk-webview，我玩意我真的整吐了，我反正是不敢用了，C++和CSS的区别可能就是因为是否安装了cordova-plugin-crosswalk-webview</strong><p><b>问题</b>Failed to install 'cordova-plugin-crosswalk-webview': Error: Unhandled "error" event. </p><b>解决办法:cordova版本降到7.0.0,</b>原因同1.2</p>
-<p><strong>4：</strong></p>
+<p><strong>4：</strong>Current working directory is not a Cordova-based project.这个鬼问题有很多种鬼情况，我自己都不知道自己是怎么解决的，百度一下自己查吧，当然删除项目重新创建可以解决90%的问题。至于原因我就不多少了！</p>
 
 
